@@ -1,0 +1,9 @@
+#To check whether a number is divisible by 8 and 12 or not.
+num=int(input("enter a number"))
+if(num%8==0):
+   if(num%12==0):
+      print("divisible by 8 and 12")
+   else:
+      print("divisible by 8 only")
+
+      
