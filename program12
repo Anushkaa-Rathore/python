@@ -1,0 +1,8 @@
+#Write a Python program to generate all sublists of a list.
+l1=[1,2,3,[4,5],[6,7],8,9]
+for x in l1:
+    if(type(x)==list):
+        for y in x:
+            print(y)
+    else:
+        print(x)
