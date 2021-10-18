@@ -1,0 +1,8 @@
+#Takes two integer numbers and  return their product.
+x=int(input("enter first number"))
+y=int(input("enter second number"))
+product=x*y
+print(product)
+
+
+
