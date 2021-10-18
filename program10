@@ -1,0 +1,9 @@
+#Write another program that prompts for a list of numbers as above and at the end prints out both the maximum and minimum of the numbers.
+l1=[]
+n=int(input("enter list size"))
+for x in range(n):
+  data=int(input("enter data"))
+  l1.append(data)
+print(l1)
+print("minimum= ",min(l1))
+print("maximum= ",max(l1))
