@@ -1,0 +1,18 @@
+#Take input of age of 3 people by user and determine oldest and youngest among them.
+x=int(input("enter age of person 1: "))
+y=int(input("enter age of person 2: "))
+z=int(input("enter age of person 3: "))
+if(x>y):
+   if(x>z):
+      {print("person1 is oldest")}
+   else:
+     print("person3 is oldest")
+else:
+ print("person2 is oldest")
+
+if(x<z and x<y):
+  print("person1 is youngest")
+elif(y<x and y<z):
+  print("person2 is youngest")
+else:
+  print("person3 is youngest")
