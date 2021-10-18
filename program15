@@ -1,0 +1,14 @@
+#Program to find the digital product of a given number
+   #ex: n=43   Digital product ----->4*3=12
+
+   
+x=int(input("enter a number"))
+product=1
+while(x>0):
+ digit=x%10
+ product=product*digit
+ x=x//10
+print("product is:",product) 
+ 
+   
+   
