@@ -1,0 +1,26 @@
+#global variable
+
+x = "global"
+def food():
+    print("x inside:", x)
+
+food()
+print("x outside:", x)
+
+#local variable
+
+def food():
+    y = "local"
+    print(y)
+
+food()
+
+#Global variable and Local variable with same name
+
+x = 5
+def food():
+    x = 10
+    print("local x:", x)
+
+food()
+print("global x:", x)
