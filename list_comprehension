@@ -1,2 +1,9 @@
+#check whether a number is even or not
+
 even_num = [x for x in range(21) if x%2 == 0]
 print(even_num)
+#or
+odd_even_list = ["Even" if i%2==0 else "Odd" for i in range(5)]
+print(odd_even_list)
+odd_even_list = [str(i) + '=Even' if i%2==0 else str(i) + "=Odd" for i in range(5)]
+print(odd_even_list)
