@@ -1,0 +1,7 @@
+#format
+print('Hello, my name is %s.' % 'Anushka')
+#split
+s1="Anushka-Rathore-from-CSIT"
+print(s1.split('-'))
+ 
+ 
