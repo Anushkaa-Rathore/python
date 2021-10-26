@@ -1,0 +1,4 @@
+s1="Anushka"
+for x in range(len(s1)):
+   print(s1[x],end=' ')
+   
