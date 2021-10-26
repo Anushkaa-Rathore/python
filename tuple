@@ -1,0 +1,10 @@
+t1=(10,20,30,[10,20,30],(10,20,30))
+if type(x)==int:
+     print(x)
+elif type(x)==list:
+     for y in x:
+        print(y)
+elif type(x)==tuple:
+     for n in x:
+         print(n)
+print()         
