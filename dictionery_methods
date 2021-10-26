@@ -1,0 +1,22 @@
+#Dictionary Methods
+
+# keys() methods
+food = {'Tom': 'Burger', 'Jim': 'Pizza', 'Tim': 'Fries'}
+f = food.keys()
+print(f)
+
+#dictionary values()
+food = {'Tom': 'Burger', 'Jim': 'Pizza', 'Tim': 'Fries'}
+f = food.values()
+print(f)
+
+#dictionary get() 
+employee = {1020: 'Kim', 1021: 'Ani', 1022: 'Mishka'}
+print(employee.get(1021))
+
+#dictionary list 
+
+dict = {}
+dict["Name"] = ["Jack"]
+dict["Marks"] = [45]
+print(dict)
