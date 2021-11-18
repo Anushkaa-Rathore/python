@@ -1,0 +1,18 @@
+#this program is made by anushka rathore
+#Program to find whether a given number is a strong number or not. e.g. n=145 1!+4!+5!==145
+
+def factn(x):
+  fact = 1
+  for i in range(1,x+1):
+    fact = fact * i
+  return fact
+n = int(input(" Enter a number "))
+c = n 
+sum = 0
+while n>0 :
+  sum = sum + factn(n%10)
+  n= n//10
+if sum == c:
+  print(c," is strong number.")
+else:
+  print(c," is not a strong number.")
