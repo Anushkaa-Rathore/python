@@ -1,0 +1,12 @@
+#this program is made by anushka rathore
+#Program to find whether a given number is a unique number. For example, 20, 56, 9863, 145, etc. are the unique numbers while 33, 121, 900, 1010, etc. are not unique numbers
+
+n = list(map(int, input('Enter a number:').split()))
+n1 = []
+for i in n:
+  if i not in n1:
+    n1.append(i)
+if len(n) == len(n1):
+  print("Number is a unique number. ")
+else:
+  print("Number is not a unique number")
