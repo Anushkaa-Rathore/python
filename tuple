@@ -7,4 +7,116 @@ elif type(x)==list:
 elif type(x)==tuple:
      for n in x:
          print(n)
-print()         
+print()  
+
+# Membership test in tuple
+my_tuple = ('a', 'p', 'p', 'l', 'e',)
+
+# In operation
+print('a' in my_tuple)
+print('b' in my_tuple)
+
+# Not in operation
+print('g' not in my_tuple)
+True
+False
+True
+# Using a for loop to iterate through a tuple
+for name in ('John', 'Kate'):
+    print("Hello", name)
+Hello John
+Hello Kate
+
+#Tuple Methods
+my_tuple = ('a', 'p', 'p', 'l', 'e',)
+
+print(my_tuple.count('p'))  
+print(my_tuple.index('l'))
+2
+3
+
+# Concatenation
+print((1, 2, 3) + (4, 5, 6))
+(1, 2, 3, 4, 5, 6)
+# Repeat
+print(("Repeat",) * 3)
+('Repeat', 'Repeat', 'Repeat')
+# Deleting tuples
+my_tuple = ('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+
+# Can delete an entire tuple
+del my_tuple
+
+print(my_tuple)
+
+# Negative indexing for accessing tuple elements
+my_tuple = ('p', 'e', 'r', 'm', 'i', 't')
+print(my_tuple[-1])
+print(my_tuple[-6])
+t
+p
+# Accessing tuple elements using slicing
+my_tuple = ('p','r','o','g','r','a','m','i','z')
+
+# elements 2nd to 4th
+print(my_tuple[1:4])
+
+# elements beginning to 2nd
+print(my_tuple[:-7])
+
+# elements 8th to end
+print(my_tuple[7:])
+
+# elements beginning to end
+print(my_tuple[:])
+('r', 'o', 'g')
+('p', 'r')
+('i', 'z')
+('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+
+# Accessing tuple elements using indexing
+my_tuple = ('p','e','r','m','i','t')
+
+print(my_tuple[0])   
+print(my_tuple[5])
+p
+t
+# nested tuple
+n_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
+
+# nested index
+print(n_tuple[0][3])       
+print(n_tuple[1][1])
+s
+4
+
+# tuple with mixed datatypes
+my_tuple = (1, "Hello", 3.4)
+print(my_tuple)
+(1, 'Hello', 3.4)
+# nested tuple
+my_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
+print(my_tuple)
+('mouse', [8, 4, 6], (1, 2, 3))
+my_tuple = 3, 4.6, "dog"
+print(my_tuple)
+
+# tuple unpacking is also possible
+a, b, c = my_tuple
+
+print(a)    
+print(b)    
+print(c)
+(3, 4.6, 'dog')
+3
+4.6
+dog
+
+# Empty tuple
+my_tuple = ()
+print(my_tuple)
+()
+# Tuple having integers
+my_tuple = (1, 2, 3)
+print(my_tuple)
+(1, 2, 3)
