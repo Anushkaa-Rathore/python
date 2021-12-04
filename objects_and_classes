@@ -24,7 +24,7 @@ class Me:
     self.age = age
   def myfunc(self):
     print("Hello my name is " + self.name)
-p1 = Me("Ahimsa", 19)
+p1 = Me("Anushka", 19)
 p1.myfunc()
 
 #stack
